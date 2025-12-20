@@ -198,7 +198,7 @@
         font-size: 16px;
         background: #f0e71433;
         border-radius: 20px;
-        width: 115px;
+        width: 110px;
         padding: 7px 10px;
         margin: 20px;
            p{
@@ -234,6 +234,72 @@
 }
 }
 
+#expert {
+    margin: 50px 0;
+  .expert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 45px;
+      .choose {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .why {
+          color: #101c26;
+          font-weight: 400;
+          font-size: 16px;
+          background: #f0e71433;
+          border-radius: 20px;
+          width: 160px;
+          padding: 7px 10px;
+        }
+        h1 {
+          font-size: 44px;
+          font-weight: 600;
+          line-height: 56px;
+          color: #101c26;
+        }
+        .p {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 32px;
+          color: #555c68;
+        }
+      }
+      .infor-main {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .block {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .infor {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h6 {
+              color: #101c26;
+              font-weight: 600;
+              font-size: 20px;
+            }
+            p {
+              color: #555c68;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 #hero4 {
   .hero4 {
     margin-top: 100px;
@@ -293,17 +359,18 @@
           }
           .dis{
             h3{
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 32px;
-            margin: 20px 0 20px 0;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: rgba(36, 39, 46, 1);
+                margin-bottom: 18px;
             }
             p{
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 20px;
-          letter-spacing: -1.1%;
-       
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                letter-spacing: -1.1%;
+                color: rgba(85, 92, 104, 1);
             }
           }
         }
@@ -490,23 +557,22 @@
             object-fit: cover;
             margin-bottom: 20px;
           }
-          
-          h2 {
+        }
+        
+        .opis {
+            h2 {
             font-size: 20px;
             font-weight: 600;
-            color: #24272E;
+            color: rgba(0, 0, 0, 1);
             margin: 10px 0 5px 0;
           }
           
           h5 {
             font-size: 14px;
             font-weight: 400;
-            color: #555C68;
+            color:  rgba(135, 145, 160, 1);
             margin: 5px 0 15px 0;
           }
-        }
-        
-        .opis {
           .stars {
             color: #FFA500;
             font-size: 18px;
@@ -531,7 +597,7 @@
           p {
             font-size: 14px;
             line-height: 24px;
-            color: #555C68;
+            color: rgba(85, 92, 104, 1);
             text-align: center;
           }
         }
